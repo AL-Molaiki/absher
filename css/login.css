@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+}
+
+
+.container{
+
+    /* background-color: white; */
+    width: 100%;
+    height: 100vh;
+}
+input,button{
+    margin-top: 7px;
+    border-radius: 7px;
+    padding-right: 5px;
+    width: 300px;
+    border: 0px;
+    height: 30px;
+    cursor: pointer;
+}
+.login{
+    
+    background-color: #acb4c6;
+    padding: 40px;
+    border-radius: 20px;
+}
+input:focus{
+    outline: 0px;
+}
+
+button,.create_btn{
+    background-color: #11398f;
+    color: white;
+
+}
+/* .create_btn{
+    margin-top: 20px;
+} */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.login2 form{
+    display: flex;
+    flex-direction: column;
+    
+}
+form h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+form{
+    direction: rtl;
+}
+.google{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    align-items: center;
+    padding-right: 25px;
+}
+form a{
+    margin: 20px 0px;
+}
+hr{
+margin-bottom: 10px;
+}
+.hr{
+    margin-top: 17px;
+}
+.login2{
+    display: none;
+}
+.login_tow{
+    display: block;
+}
+.login_one{
+    display: none;
+}

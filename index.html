@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style_home.css">
+   
+    <link rel="icon" href="media/ebshr.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--main css file-->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--font awosom file-->
+    <link rel="stylesheet" href="css/all.min.css">
+    
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <div class="head1">
+        <nav class="nav">
+            <!-- <i class="fa-solid fa-person-biking"></i> -->
+            <img class="logo_img" src="media/logo222.jpg" alt="">
+
+            <a class="home" href="">الرئيسية</a>
+            <a href="#food">الوجبات</a>
+            <a href="#contact-us">اتصل بنا</a>
+            <a href="#about">من نحن</a>
+
+        </nav>
+    </div>
+    <header>
+        
+        <div class="container">
+            <a href="index.htm" class="logo">
+                <h1 >
+                    ابــشــر
+                </h1>
+                
+             
+            </a>
+
+            <form action="" class="search-prodouct-form">
+                <div class="search-box">
+                    <input class="search" type="search" placeholder="البحث ...">
+                </div>
+                <button type="submit" title="ابحث" >إبحث</button>
+            </form>
+
+            <div class="login">
+                <a href="login.html">
+                    <i class="fa-solid fa-user" style="color: white;"></i>
+                    <span class="login-text" style="color: #f07b26;">الدخول / التسجيل</span>
+                </a>
+               
+            </div>
+
+            <div class="cart">
+                <a href="#cart-page ">
+                    <sup><span id="Tcounter">0</span></sup>
+                    <i style="color: white;" class="fa-solid fa-cart-shopping " id="cart-icon"></i> 
+                    <span id="Tcost">0 ر ي</span>
+                    
+                </a>
+            </div>
+
+
+            
+        </div>
+        
+           
+        
+           
+    </header>
+
+
+     <div class="content_home">
+            <div class="pargraph">
+                <img src="media/logo222.jpg" alt="">
+                <h2>
+                    أبشر لتوصيل الطلبات
+                </h2>
+                <p class="pp">
+                   
+                    توصيل سريع لجميع أنواع الطلبات
+                    <br>
+                    داخل اليمن
+    
+                </p>
+            </div>
+        </div>
+
+    
+    
+   
+   
+
+    <main  class="">
+        <div id="food" class="container">
+            <div class="menu1" >
+
+
+                <div class="list-card">
+                    
+                    <a href="#appetizers" class="list-name">
+                        المقبلات
+                    </a>
+                </div>
+    
+                <div class="list-card">
+                   
+                    <a href="#meat-chicken" class="list-name">
+                        اللحوم والدجاج
+                    </a>
+                </div>
+    
+                <div class="list-card">
+                   
+                    <a href="#popular-food" class="list-name">
+                        الاكلات الشعبية
+                    </a>
+                </div>
+    
+                <div class="list-card">
+                    
+                    <a href="#drinks" class="list-name">
+                        العصائر والمشروبات
+                    </a>
+                </div>
+    
+                <div class="list-card">
+                    
+                    <a href="#sandwitch" class="list-name">
+                        الساندويتشات
+                    </a>
+                </div>
+    
+                <div class="list-card">
+                   
+                    <a href="#candy" class="list-name">
+                        الحلويات
+                    </a>
+                </div>
+    
+               
+                
+            </div>
+            <div id="food-items" >
+                <p class="category-name">  المقبلات</p>
+                <div id="appetizers">
+                    
+                </div>
+
+                <p class="category-name">اللحوم والدجاج</p>
+                <div id="meat-chicken">
+                </div>
+
+                <p class="category-name">الاكلات الشعبية</p>
+                <div id="popular-food">
+                </div>
+
+
+                <p class="category-name">العصائر والمشروبات</p>
+                <div id="drinks">
+                </div>
+
+                <p class="category-name">الساندويتشات</p>
+                <div id="sandwitch">
+                </div>
+                
+
+                <p class="category-name">الحلويات</p>
+                <div id="candy">
+                </div>
+
+                
+            </div>
+            <div id="cart-page" class="cart-toggle">
+                
+                <table class="table">
+                    <thead>
+                        <td>المنتج</td>
+                        <td>الاسم</td>
+                        <td>الكمية</td>
+                        <td>السعر</td>
+                        <td>الاجمالي</td>
+                    </thead>
+                    <tbody id="table-body">
+                        
+
+                        
+                        
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4">الاجمالي</td>
+                            <td id="total">30000</td>
+                        </tr>
+                        
+                    </tfoot>
+                </table>
+                <div class="checkout" class="cart-toggle" style="display: flex; justify-content: space-around; font-size: 24px; margin-top: 10px;">
+                    <p>الاجمالي : 
+                        <span id="total2">40</span>
+                      
+                    </p> 
+                    <p>التوصيل :
+                        <span>500 ر.ي</span>
+                      
+                    </p> 
+                    <p>الاجمالي الكلي : 
+                        <span id="final-total">33</span>
+                       
+                    </p>
+                </div>
+                <div class="btn-box" style="text-align: center;">
+                    <button class="cart-btn" >دفع</button>
+                </div>
+
+
+               
+            </div>
+        </div>
+
+
+    </main>
+
+    <section class="contact-us" id="contact-us">
+        <div class="container" >
+            <ul class="contact-us-list">
+                <li>
+                    <a href="http://wa.me/9999999999999">
+                        <i style="color: rgba(3, 252, 3, 0.849);" class="fa-brands fa-whatsapp"></i>
+                       
+                        <h3 style="color: white;">
+                            779999999<br>
+                            واتساب
+                            
+                        </h3>
+                        
+                    </a>
+                </li>
+                <li>
+                    <a href="Tel:99999999">
+                        <i style="color: white; background-color: rgba(0, 201, 0, 0.669); border-radius: 50%; width: 45px; height: 45px; font-size: 30px; padding-top: 7px;"   class="fa-solid fa-phone"></i>
+                        <h3 style="color: white;">
+                            779999999<br>
+                            اتصل بنا
+                             
+                        </h3>
+                        
+                       
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:absher@gmail.com">
+                        <img src="media/Email Open_42.png" alt="">
+                        <!-- <i style="color: red;" class="fa-regular fa-envelope"></i> -->
+                        <h3 >
+                            Abshr@gmail.com
+                            <br>
+
+                            الإيميل 
+                           
+
+                        </h3>
+                        <span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-solid fa-clock" style="color: ghostwhite; background-color: black ; border-radius: 50%;"></i>
+                        <h3>خدمة العملاء متاحة من 10 صباحاً  الئ 11 مساءً</h3>
+                        
+    
+                    </a>
+                </li>
+    
+    
+            </ul>
+
+
+            <div class="news-subscribe">
+
+                <p style="color: #f07b26; margin-bottom: 10px;">انضم لاخبارنا لتحصل على افضل العروض</p>
+                <form action="">
+            
+                    <div class="input-box">
+                        <input type="email" name="" id="" placeholder="عنوان البريد الالكتروني">
+                        <button type="submit" title="اشتراك">اشتراك</button>
+                    </div>
+                </form>
+                   
+                
+    
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="container">
+
+           
+
+            <div class="footer-links">
+                <div class="help-and-support">
+                    <h4>
+
+                        خدمة العملاء
+                        <a href="">
+                            <span class="icon-plus">
+
+                            </span>
+                        </a>
+                    </h4>
+
+                    <ul class="footer-help-list">
+                        <li>
+                            <a href="">اعرض منتاجتك على ابشر</a>
+                        </li>
+
+                        <li>
+                            <a href="">وظائف في مجموعة ابشر</a>
+                        </li>
+
+                        <li>
+                            <a href="">التواصل معنا </a>
+                        </li>
+                        <li>
+                            <a href="">الاسئلة الشائعة</a>
+                        </li>
+                        <li>
+                            <a href="">سياسة التوصيل والارجاع</a>
+                        </li>
+                        
+                        
+                        <li>
+                            <a href="">مقالات</a>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+
+                <div class="departments">
+                    <h4>
+                        جميع الاقسام
+
+                        <a href="">
+                            <span></span>
+                        </a>
+
+                    </h4>
+                    <ul>
+                        <li>
+                            <a href="">المطاعم</a>
+                        </li>
+                        
+                        <li>
+                            <a href=""> الحلويات</a>
+                        </li>
+                        <li>
+                            <a href="">السوبر ماركت</a>
+                        </li>
+                        <li>
+                            <a href="">الدجاج واللحوك والاسماك</a>
+                        </li>
+                        <li>
+                            <a href="">الخضروات والفواكة</a>
+                        </li>
+                        <li>
+                            <a href="">العسل والتمور</a>
+                        </li>
+                        <li>
+                            <a href="">البهارات والمكسرات</a>
+                        </li>
+                        <li>
+                            <a href="">المتاجر الالكترونية</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="follow-us">
+                    <h4 class="desktop">تابعونا</h4>
+                    <ul class="follow-us-list">
+                        <li>
+                            <a class="x" href="http://www.facebook.com/Abshr">
+                                <!-- <i class="fa-brands fa-square-facebook"></i> -->
+
+                            </a>
+                        </li>
+                        <li>
+                            <a class="instagram" href="http://www.instagram.com/Abshr">
+                                <!-- <i class="fa-brands fa-instagram"></i> -->
+                                <img src="media/instagram_logo1_30px.png" alt="">
+
+                            </a>
+                        </li>
+                        <li>
+                            <a class="facebook" href="http://www.X.com/Abshr">
+                                <img src="media/facebook_30px.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="youtube" href="http://www.youtube.com/Abshr">
+                                <!-- <i class="fa-brands fa-youtube" style="width: 100px;"></i> -->
+                                <img src="media/YouTube_20.png" alt="">
+
+                            </a>
+                        </li>
+                    </ul>
+
+                    <h4>تحميل تطبيق الموبايل</h4>
+
+                    <a class="google-store" href="">
+                        <img src="media/googl play.jpg" alt="" width="100px">
+                    </a>
+
+                    <a  class="app-store" href="">
+                        <img src="media/appStore.jpg" alt="" width="100px">
+                    </a>
+
+
+                </div>
+            </div>
+
+            <div class="footer-payment-section">
+                <h3>طرق الدفع</h3>
+                <ul class="payment-methods-list">
+                    <li title="فيزا كارد">
+                        <img src="media/visa-card.png" alt="" class="payment-method">
+                    </li>
+                    <li title="ماستر كارد">
+                        <img src="media/master-card.png" alt="" class="payment-method" >
+                    </li>
+
+                    <li title="باي بال">
+                        <img src="media/pay-pal.png" alt="" class="payment-method">
+                    </li>
+
+                    <li title="حاسب كريمي">
+                        <img src="media/hasib-kuraimi.png" alt="" class="payment-method">
+                    </li>
+
+                    <li title="ون كاش">
+                        <img src="media/one cash.png" alt=""class="payment-method" >
+                    </li>
+
+                    <li title="ايداع كريمي">
+                        <img src="media/debosit-kuraimi.png" alt=""  class="payment-method">
+                    </li>
+
+                    <li title="التسليم نقدا عند الاستلام" >
+                        <img src="media/cash.png" alt="" class="payment-method">
+                    </li>
+                    
+                    
+
+                </ul>
+
+            </div>
+
+            <div class="copyright-section">
+                <p>
+                    <span>جميع الحقوق محفوظة</span>
+                    <span>شركة ابشر للتوصيل@2024</span>
+
+
+
+                </p>
+
+            </div>
+        </div>
+
+
+        <button id="btn-up"><i class="fa-solid fa-arrow-up"></i></button>
+    </footer>
+    
+
+
+  
+  <script  src="js/index.js"  type=""></script>
+  <!-- <script type="module" src="js/fooditems.js"></script> -->
+  
+</body>
+</html>
+
+<!--
+
+
+     <div id="item-box">
+                        <img src="media/cash.png" alt="">
+                        <div id="info">
+                            <p id="item-name">دجاج شواية دحاجة</p>
+                            <p id="item-price">2000 ر ي</p>
+                        </div>
+                        <div class="quantity">
+                            <input type="text" name="qty" id="qty" value="1" >
+                            <i class="fa-sharp fa-solid fa-circle-plus" id="plus-sign" onclick="incQty()"></i>
+                            <i class="fa-sharp fa-solid fa-circle-minus" id="minus-sign" onclick="decQty()" ></i>
+                        </div>
+                        <div class="add">
+                                <button id="btn-add" >اضافة للسلة</button>
+                        </div>
+                    </div>
+                    
+-->
